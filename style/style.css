@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  margin: auto;
+  font-family: "Lato";
+}
+.fon {
+  background-color: #ed4c5c;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+}
+.texte {
+  width: 445px;
+}
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  padding-bottom: 30px;
+  font-family: "Lato";
+}
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 50px;
+  font-family: "Lato";
+}
+
+.app {
+  margin-left: 20px;
+}
+.wid {
+  margin-left: 20px;
+  margin-bottom: 3px;
+}
