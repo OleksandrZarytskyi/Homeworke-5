@@ -1,5 +1,4 @@
 body {
-  height: 100vh;
   margin: auto;
   font-family: "Lato";
 }
@@ -22,7 +21,7 @@ h1 {
   padding-bottom: 30px;
   font-family: "Lato";
 }
-p {
+.fon p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -37,4 +36,82 @@ p {
 .wid {
   margin-left: 20px;
   margin-bottom: 3px;
+}
+.cent {
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 117px;
+}
+.left {
+  width: 434px;
+}
+h2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #000000;
+}
+.left p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+  color: #000000;
+  margin-top: 50px;
+}
+
+.search1 {
+  border: 1px solid#000000;
+  border-radius: 6px;
+  color: white;
+  outline: none;
+  font-size: 16px;
+  padding: 20px 37px;
+}
+.search2 {
+  border: 1px solid#000000;
+  border-radius: 6px;
+  color: white;
+  outline: none;
+  font-size: 16px;
+  padding: 20px 37px;
+}
+.search3 {
+  border: 1px solid#000000;
+  border-radius: 6px;
+  color: white;
+  outline: none;
+  font-size: 16px;
+  padding: 20px 180px;
+}
+.search4 {
+  border: 1px solid#000000;
+  border-radius: 6px;
+  color: white;
+  outline: none;
+  font-size: 16px;
+  padding: 20px 180px;
+}
+.btn {
+  border: 1.5px solid #ed4c5c;
+  background: #ed4c5c;
+  border-radius: 6px;
+  color: white;
+  padding: 15px 30px;
+  align-items: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+.rite div {
+  margin-bottom: 15px;
+}
+.search2 {
+  margin-left: 11px;
 }
