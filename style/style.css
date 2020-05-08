@@ -63,13 +63,14 @@ h2 {
   line-height: 20px;
   text-align: justify;
   color: #000000;
-  margin-top: 50px;
+  margin-top: 10%;
 }
 .rite div {
-  margin-bottom: 15px;
+  margin-bottom: 3%;
 }
+
 .search2 {
-  margin-left: 11px;
+  margin-left: 2%;
 }
 
 .search1 {
@@ -78,17 +79,19 @@ h2 {
   color: white;
   outline: none;
   font-size: 16px;
-  padding: 20px 37px;
+  padding: 20px 44px 20px 30px;
   color: #000000;
 }
+
 .search2 {
   border: 1px solid#000000;
   border-radius: 6px;
   color: white;
   outline: none;
   font-size: 16px;
-  padding: 20px 37px;
+  padding: 20px 44px 20px 30px;
   color: #000000;
+  background: white;
 }
 .search3 {
   border: 1px solid#000000;
@@ -96,7 +99,7 @@ h2 {
   color: white;
   outline: none;
   font-size: 16px;
-  padding: 20px 180px;
+  padding: 20px 330px 20px 30px;
   color: #000000;
 }
 .search4 {
@@ -105,7 +108,7 @@ h2 {
   color: white;
   outline: none;
   font-size: 16px;
-  padding: 20px 180px;
+  padding: 20px 330px 20px 30px;
   color: #000000;
 }
 .btn {
@@ -113,7 +116,7 @@ h2 {
   background: #ed4c5c;
   border-radius: 6px;
   color: white;
-  padding: 15px 30px;
+  padding: 20px 30px 20px 30px;
   align-items: center;
   font-size: 14px;
   text-transform: uppercase;
@@ -127,23 +130,22 @@ h2 {
   background-color: white;
 }
 .bot {
+  height: 300px;
   display: flex;
+  justify-content: space-around;
+  margin-left: 80px;
 }
 .add {
   width: 254px;
-  margin-left: 80px;
 }
 .serv {
   width: 254px;
-  margin-left: 70px;
 }
 .toch {
   width: 254px;
-  margin-left: 70px;
 }
 .port {
   width: 254px;
-  margin-left: 70px;
 }
 h3 {
   font-family: "Lato";
@@ -188,6 +190,9 @@ h3 {
   font-size: 12px;
   line-height: 14px;
   color: #101010;
-  margin-top: 80px;
-  margin-left: 80px;
+}
+.link {
+  display: flex;
+  justify-content: left;
+  margin-left: 110px;
 }
