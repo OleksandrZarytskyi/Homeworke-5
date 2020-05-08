@@ -65,6 +65,12 @@ h2 {
   color: #000000;
   margin-top: 50px;
 }
+.rite div {
+  margin-bottom: 15px;
+}
+.search2 {
+  margin-left: 11px;
+}
 
 .search1 {
   border: 1px solid#000000;
@@ -73,6 +79,7 @@ h2 {
   outline: none;
   font-size: 16px;
   padding: 20px 37px;
+  color: #000000;
 }
 .search2 {
   border: 1px solid#000000;
@@ -81,6 +88,7 @@ h2 {
   outline: none;
   font-size: 16px;
   padding: 20px 37px;
+  color: #000000;
 }
 .search3 {
   border: 1px solid#000000;
@@ -89,6 +97,7 @@ h2 {
   outline: none;
   font-size: 16px;
   padding: 20px 180px;
+  color: #000000;
 }
 .search4 {
   border: 1px solid#000000;
@@ -97,6 +106,7 @@ h2 {
   outline: none;
   font-size: 16px;
   padding: 20px 180px;
+  color: #000000;
 }
 .btn {
   border: 1.5px solid #ed4c5c;
@@ -108,10 +118,76 @@ h2 {
   font-size: 14px;
   text-transform: uppercase;
   box-sizing: border-box;
+  border: 1px solid transparent;
 }
-.rite div {
-  margin-bottom: 15px;
+.btn:hover {
+  font-weight: bold;
+  color: #ed4c5c;
+  border: 1px solid #ed4c5c;
+  background-color: white;
 }
-.search2 {
-  margin-left: 11px;
+.bot {
+  display: flex;
+}
+.add {
+  width: 254px;
+  margin-left: 80px;
+}
+.serv {
+  width: 254px;
+  margin-left: 70px;
+}
+.toch {
+  width: 254px;
+  margin-left: 70px;
+}
+.port {
+  width: 254px;
+  margin-left: 70px;
+}
+h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  margin-bottom: 20px;
+}
+.add p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+
+  color: #101010;
+}
+.serv p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  color: #101010;
+  margin-bottom: 3px;
+}
+.toch p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #101010;
+  margin-bottom: 16px;
+}
+.link p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #101010;
+  margin-top: 80px;
+  margin-left: 80px;
 }
