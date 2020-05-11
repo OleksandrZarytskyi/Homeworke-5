@@ -70,46 +70,46 @@ h2 {
 }
 
 .search2 {
-  margin-left: 2%;
+  margin-left: 3%;
+  font-family: "Lato";
 }
 
 .search1 {
   border: 1px solid#000000;
   border-radius: 6px;
-  color: white;
+  color: rgba(19, 39, 67, 0.5);
   outline: none;
   font-size: 16px;
-  padding: 20px 44px 20px 30px;
-  color: #000000;
+  padding: 20px 53px 20px 30px;
+  font-family: "Lato";
 }
 
 .search2 {
   border: 1px solid#000000;
   border-radius: 6px;
-  color: white;
+  color: rgba(19, 39, 67, 0.5);
   outline: none;
   font-size: 16px;
-  padding: 20px 44px 20px 30px;
-  color: #000000;
-  background: white;
+  padding: 20px 53px 20px 30px;
+  font-family: "Lato";
 }
 .search3 {
   border: 1px solid#000000;
   border-radius: 6px;
-  color: white;
+  color: rgba(19, 39, 67, 0.5);
   outline: none;
   font-size: 16px;
   padding: 20px 330px 20px 30px;
-  color: #000000;
+  font-family: "Lato";
 }
-.search4 {
+select {
   border: 1px solid#000000;
   border-radius: 6px;
-  color: white;
+  color: rgba(19, 39, 67, 0.5);
   outline: none;
   font-size: 16px;
-  padding: 20px 330px 20px 30px;
-  color: #000000;
+  padding: 20px 391px 20px 20px;
+  font-family: "Lato";
 }
 .btn {
   border: 1.5px solid #ed4c5c;
@@ -122,12 +122,14 @@ h2 {
   text-transform: uppercase;
   box-sizing: border-box;
   border: 1px solid transparent;
+  font-family: "Lato";
 }
 .btn:hover {
   font-weight: bold;
   color: #ed4c5c;
   border: 1px solid #ed4c5c;
   background-color: white;
+  font-family: "Lato";
 }
 .bot {
   height: 300px;
