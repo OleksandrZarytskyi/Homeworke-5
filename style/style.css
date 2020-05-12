@@ -208,16 +208,15 @@ h3 {
   color: #101010;
   margin-bottom: 16px;
 }
-.link p {
+
+.link {
+  display: flex;
+  justify-content: left;
+  margin-left: 110px;
   font-family: "Lato";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
   color: #101010;
-}
-.link {
-  display: flex;
-  justify-content: left;
-  margin-left: 110px;
 }
