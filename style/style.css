@@ -45,6 +45,7 @@ h1 {
 }
 .left {
   width: 434px;
+  margin-left: 20px;
 }
 h2 {
   font-family: Lato;
@@ -65,52 +66,75 @@ h2 {
   color: #000000;
   margin-top: 10%;
 }
-.rite div {
-  margin-bottom: 3%;
+.rite {
+  margin-left: 40px;
 }
 
-.search2 {
-  margin-left: 3%;
-  font-family: "Lato";
+.first_name {
+  margin-right: 20px;
+  background: white;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  width: 255px;
+  height: 60px;
+  color: black;
+  padding-left: 31px;
 }
 
-.search1 {
-  border: 1px solid#000000;
+.last_name {
+  border: 1px solid #333333;
+  box-sizing: border-box;
   border-radius: 6px;
-  color: rgba(19, 39, 67, 0.5);
-  outline: none;
+  width: 255px;
+  height: 60px;
+  left: 1020px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
-  padding: 20px 53px 20px 30px;
-  font-family: "Lato";
+  line-height: 19px;
+  color: black;
+  padding-left: 31px;
 }
 
-.search2 {
-  border: 1px solid#000000;
+.phone_number {
+  margin-top: 24px;
+  width: 534px;
+  height: 60px;
+  border: 1px solid #333333;
+  box-sizing: border-box;
   border-radius: 6px;
-  color: rgba(19, 39, 67, 0.5);
-  outline: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
-  padding: 20px 53px 20px 30px;
-  font-family: "Lato";
+  line-height: 19px;
+  color: black;
+  padding-left: 31px;
 }
-.search3 {
-  border: 1px solid#000000;
-  border-radius: 6px;
-  color: rgba(19, 39, 67, 0.5);
-  outline: none;
-  font-size: 16px;
-  padding: 20px 330px 20px 30px;
-  font-family: "Lato";
-}
+
 select {
-  border: 1px solid#000000;
+  margin-top: 24px;
+  border: 1px solid #333333;
+  width: 535px;
+  height: 60px;
+  box-sizing: border-box;
   border-radius: 6px;
-  color: rgba(19, 39, 67, 0.5);
-  outline: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
-  padding: 20px 391px 20px 20px;
-  font-family: "Lato";
+  line-height: 19px;
+  padding-left: 31px;
+  color: rgba(19, 39, 67, 0.5);
 }
+
 .btn {
   border: 1.5px solid #ed4c5c;
   background: #ed4c5c;
@@ -122,14 +146,13 @@ select {
   text-transform: uppercase;
   box-sizing: border-box;
   border: 1px solid transparent;
-  font-family: "Lato";
+  margin-top: 20px;
 }
 .btn:hover {
   font-weight: bold;
   color: #ed4c5c;
   border: 1px solid #ed4c5c;
   background-color: white;
-  font-family: "Lato";
 }
 .bot {
   height: 300px;
